@@ -9,13 +9,7 @@ body {
     
 }
 
-.fab {
-    font-size: 20px;
-    color: whitesmoke;
-    padding: 10px 5px 10px 5px;
-    justify-content: center;
 
-}
 
 .container-1 {
     display: flex;
@@ -30,22 +24,38 @@ body {
         padding-top: 20px; 
     
     }
+
+/* Profile Name*/
     .box-2 {
         flex: 1;
         padding-top: 20px;
         padding-bottom: 30px;
     }
-    
+
+/* Quicklinks */
+
     .box-3 {
         flex: 1;
    
     }
-    
+
+/* Social Media Icons */
     .box-4 {
         flex: 1;
-        padding: 5px 60px 30px 60px;
     }
 
+    .fab {
+        font-size: 20px;
+        color: whitesmoke;
+        padding: 10px 15px 10px 15px;
+        justify-content: center;
+    }
+    
+    .fab:hover { 
+        color: #525252;
+    }
+
+/* Text Box */
 .block {
     border-style: solid 1px;
     border: none;
@@ -57,8 +67,14 @@ body {
     padding: 20px;
     align-items: center;
     text-align: center;
-    font-family: 'Lexend', sans-serif;
+    font-family: 'Lexend', sans-serif;   
+}
+
+.block:hover {
     
+    padding: 20px;
+    background-color: rgb(240, 240, 240, 0.20);
+    color: #313131;
 }
 
 a {
@@ -66,9 +82,5 @@ a {
     padding: 20px;
 }
 
-.block:hover {
-    
-    padding: 20px;
-    background-color: rgb(240, 240, 240, 0.05);
-    color: #313131;
-}
+
+
