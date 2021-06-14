@@ -2,17 +2,56 @@ body {
     background-color: #D9AFD9;
     background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
     font-family: 'Encode Sans Condensed', sans-serif;
-
     }
 
-button {
-
+.button {
     font-family: 'Lexend', sans-serif;
     
-
 }
 
 .fab {
-    font-size: 45px;
+    font-size: 20px;
     color: whitesmoke;
+    padding: 10px 5px 10px 5px;
+    justify-content: center;
+
 }
+
+
+
+.container-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px 10px 20px;
+}
+
+    
+   
+    .box-1 {
+        flex: 1;
+        padding: 0px;
+        
+        
+     
+    
+    }
+    .box-2 {
+        flex: 1;
+        padding: 50px;
+    }
+    
+    .box-3 {
+        flex: 1;
+   
+    }
+    
+    .box-4 {
+        flex: 1;
+        padding: 50px;
+    }
+
+
+
+
