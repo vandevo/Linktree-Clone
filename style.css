@@ -13,6 +13,7 @@ body {
     align-items: center;
     justify-content: center;
     padding: 10px;
+    
 }
 
 /* Avatar */
@@ -71,7 +72,8 @@ body {
     padding: 20px;
     align-items: center;
     text-align: center;
-    font-family: 'Lexend', sans-serif;   
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Encode Sans Condensed', sans-serif;   
 }
 
 .block:hover {
