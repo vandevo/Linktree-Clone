@@ -56,7 +56,7 @@ body {
     }
     
     .fab:hover { 
-        color: #525252;
+        color: rgba(245, 245, 245, 0.767);
     }
 
 /* Text Box */
@@ -79,7 +79,7 @@ body {
     
     padding: 20px;
     background-color: rgb(240, 240, 240, 0.20);
-    color: #313131;
+    color: whitesmoke;
 }
 
 a {
