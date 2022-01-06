@@ -16,18 +16,24 @@ body {
   
 }
 
+.container-4 {
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
 .container > a {
     text-decoration: none;
     color: black;
 }
 
 div {
-    margin: .2em;
+    margin: .15em;
 }
 
 .box {
     background-color: lightblue;
     padding: .5em;
     margin: .2em;
+   
 }
 
