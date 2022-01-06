@@ -1,18 +1,33 @@
 html, 
 body {
-    margin: 0;
+    font-family: 'Roboto Mono', monospace;
 }
+
+/* Containers & Divisions */
 
 .container {
     display: flex;
     flex-direction: column;
+
     height: 100%;
-    align-items: center;
+    width: 70%;
 
-    
+    text-align: center;
+  
 }
 
-.block {
-    background-color: blue;
-    padding: 10px
+.container > a {
+    text-decoration: none;
+    color: black;
 }
+
+div {
+    margin: .2em;
+}
+
+.box {
+    background-color: lightblue;
+    padding: .5em;
+    margin: .2em;
+}
+
