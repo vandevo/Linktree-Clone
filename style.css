@@ -1,92 +1,85 @@
-/* General Styling */
-
+html, 
 body {
-    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
- background-blend-mode: multiply;
-    font-family: 'Encode Sans Condensed', sans-serif;
-    }
+    font-family: 'Roboto Mono', monospace;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding-top: 1em;
+    height: 100%;
+    background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
+ 
+}
 
+/* Containers & Divisions */
 
-.container-1 {
+.container {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    padding: 10px;
-    
-}
 
-/* Avatar */
+    width: 80%;
 
-    .box-1 {
-        flex: 1;
-        padding-top: 20px; 
-    
-    }
-
-/* Profile Name */
-    .box-2 {
-        flex: 1;
-        padding-top: 20px;
-        padding-bottom: 10px;
-
-    }
-    .box-2 > h1 {
-        color: whitesmoke;
-    }
-
-/* Quicklinks */
-
-    .box-3 {
-        flex: 1;
-   
-    }
-
-/* Social Media Icons */
-    .box-4 {
-        flex: 1;
-        padding-bottom: 30px;
-        padding-top: 20px;
-    }
-
-    .fab {
-        font-size: 20px;
-        color: whitesmoke;
-        padding: 10px -5px 10px -5px;
-        justify-content: center;
-    }
-    
-    .fab:hover { 
-        color: rgba(245, 245, 245, 0.767);
-    }
-
-/* Text Box */
-.block {
-    border-style: solid 1px;
-    border: none;
-    border-radius: 40px;
-
-    background-color: whitesmoke;
-    color: #525252;
-
-    padding: 20px;
-    align-items: center;
     text-align: center;
-    font-family: 'Lexend', sans-serif;
-    font-family: 'Encode Sans Condensed', sans-serif;   
+  
 }
 
-.block:hover {
+.container > a {
+    text-decoration: none;
+    color: black;
     
-    padding: 20px;
-    background-color: rgba(245, 245, 245, 0.493);
-    color: whitesmoke;
-}
-
-a {
-    color: inherit;
-    padding: 20px;
 }
 
 
+/* Icons */
+.container-5 {
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 1.5em;
+}
 
+.container-5 > a {
+    color: white;
+}
+
+.container-5 > a:hover {
+    color: rgba(0, 0, 0, 0.685);
+}
+
+div {
+    margin: .15em;
+    
+}
+
+.box {
+    background-color: white;
+    padding: .5em;
+    margin: .2em;
+    border-radius: .40em;
+    cursor: pointer;
+   
+}
+
+.box:hover {
+    background-color: rgba(255, 255, 255, 0.7)
+}
+
+/* Avatar Image */
+.avatar {
+    width: 20%;
+    margin: 0 auto;
+    border-radius: 100em;
+    padding: .70em;
+    
+} 
+
+/* Media Query - Mobile First */
+@media only screen and (max-width: 600px) {
+    .avatar {
+        width: 40%;
+        
+    } 
+
+    .container {
+        width: 100%;
+      
+    }
+  }
