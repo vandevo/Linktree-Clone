@@ -1,6 +1,12 @@
 html, 
 body {
     font-family: 'Roboto Mono', monospace;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding-top: 1em;
+    height: 100%;
+    background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
+ 
 }
 
 /* Containers & Divisions */
@@ -8,32 +14,72 @@ body {
 .container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 
-    height: 100%;
-    width: 70%;
+    width: 80%;
 
     text-align: center;
   
 }
 
-.container-4 {
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
 .container > a {
     text-decoration: none;
     color: black;
+    
+}
+
+
+/* Icons */
+.container-5 {
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.container-5 > a {
+    color: white;
+}
+
+.container-5 > a:hover {
+    color: rgba(0, 0, 0, 0.87);
 }
 
 div {
     margin: .15em;
+    
 }
 
 .box {
-    background-color: lightblue;
+    background-color: white;
     padding: .5em;
     margin: .2em;
+    border-radius: .40em;
+    cursor: pointer;
    
 }
 
+.box:hover {
+    background-color: rgba(255, 255, 255, 0.7)
+}
+
+/* Avatar Image */
+.avatar {
+    width: 20%;
+    margin: 0 auto;
+    border-radius: 100em;
+    padding: .70em;
+    
+} 
+
+/* Media Query - Mobile First */
+@media only screen and (max-width: 600px) {
+    .avatar {
+        width: 40%;
+        
+    } 
+
+    .container {
+        width: 100%;
+      
+    }
+  }
