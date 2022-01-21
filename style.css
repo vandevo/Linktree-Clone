@@ -52,15 +52,19 @@ div {
 
 .box {
     background-color: white;
-    padding: .7em;
-    margin: .2em;
-    border-radius: .40em;
+    padding: 1em;
+    margin: .5em;
+    border-radius: .5em;
     cursor: pointer;
+    
+    
+ 
    
 }
 
 .box:hover {
-    background-color: rgba(255, 255, 255, 0.7)
+    background-color: rgba(255, 255, 255, 0.7);
+ 
 }
 
 /* Avatar Image */
