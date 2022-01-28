@@ -1,12 +1,12 @@
 html, 
 body {
     font-family: 'Roboto Mono', monospace;
-    font-size: .95em;
+    font-size: 1em;
     box-sizing: border-box;
     margin: 0 auto;
     padding-top: 1em;
     height: 100%;
-    background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
+    background-color: #001d3b;
     
 }
 
@@ -25,7 +25,7 @@ body {
 
 .container > a {
     text-decoration: none;
-    color: rgba(0, 0, 0, 0.801);
+    color: #fff;
     
 }
 
@@ -38,11 +38,11 @@ body {
 }
 
 .container-5 > a {
-    color: white;
+    color: #42a5f5;
 }
 
 .container-5 > a:hover {
-    color: rgba(0, 0, 0, 0.685);
+    color: #90caf9;
 }
 
 div {
@@ -51,7 +51,7 @@ div {
 }
 
 .box {
-    background-color: white;
+    background-color: #42a5f5;
     padding: 1em;
     margin: .5em;
     border-radius: .5em;
@@ -63,7 +63,7 @@ div {
 }
 
 .box:hover {
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: #90caf9;
  
 }
 
@@ -91,5 +91,6 @@ div {
 
 .name {
     font-size: 2em;
+    color: #fff
 
 }
