@@ -41,7 +41,7 @@
   --bs-danger: #d32f2f;
   --bs-light: #e3f2fd;
   --bs-dark: #121212;
-  --bs-primary-rgb:51, 153, 254;
+  --bs-primary-rgb:224, 224, 224;
   --bs-secondary-rgb: 171, 71, 188;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 2, 136, 209;
@@ -82,9 +82,9 @@ body {
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
   line-height: var(--bs-body-line-height);
-  color: var(--bs-body-color);
+  color: #212121;
   text-align: var(--bs-body-text-align);
-  background-color: var(--bs-body-bg);
+  background-color: #FAFAFA;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -107,7 +107,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   line-height: 1.2;
-  color: #fff;
+  color: #212121;
 }
 
 h1, .h1 {
@@ -237,11 +237,11 @@ sup {
 }
 
 a {
-  color: #42a5f5;
-  text-decoration: underline;
+  color: #424242;
+  text-decoration: none;
 }
 a:hover {
-  color: #90caf9;
+  color: #BDBDBD;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -11364,7 +11364,7 @@ p.lead {
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
     max-height: 10rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    border: 0.4em solid #FAFAFA;
   }
   #sideNav .navbar-collapse {
     display: flex;
@@ -11400,7 +11400,11 @@ p.lead {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: #0075eb;
+  background-color: #9E9E9E;
+  
+  
+  
+  ;
 }
 
 .dev-icons {
@@ -11432,4 +11436,24 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+}
+
+body  {
+  color: #424242;
+}
+
+.text-primary {
+  color: #616161 !important;
+}
+
+.nav-link {
+  color: #616161 !important;
+}
+
+.nav-link:hover {
+  color: #212121 !important;
+}
+
+.active {
+  color: #212121 !important;
 }
