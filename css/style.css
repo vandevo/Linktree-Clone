@@ -95,8 +95,14 @@ div {
 .name {
     font-size: 2em;
     color: #616161;
-    font-weight: 300;
 
+    font-family:'Roboto Mono', monospace ;
+
+}
+
+.subheader {
+    font-family:'Roboto Mono', monospace ;
+    font-size: 1.3em;
 }
 
 svg#verified {
