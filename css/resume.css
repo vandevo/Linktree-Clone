@@ -11457,3 +11457,8 @@ body  {
 .active {
   color: #212121 !important;
 }
+
+#updated {
+  font-style: italic;
+  font-size: .9em;
+}
